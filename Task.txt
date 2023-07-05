@@ -1,0 +1,15 @@
+angular + .net test:
+
+http error 429 indicated server busy or too many requests at a time.
+
+create Angular APP containing text field input and button. 
+the text field can contain only valid email otherwise button will be disabled. 
+on clicking the button the content of the field will be sent to API you will create
+(.net/.net core application)
+after reciving from the API the response , the time will be displaied under the button 
+
+API part
+the API will contain POST action that receive the email 
+the API will return to the client the email and the exact time the server received it 
+
+if the user sent more then one request in 3 sec the server will response error 429 with the latest valid requst.
